@@ -1,0 +1,36 @@
+{
+  "name": "R_relu_64_nielsen_lr0.03_wd0.03",
+  "config": {
+    "hidden": [
+      64
+    ],
+    "activation": "relu",
+    "initialization": "nielsen",
+    "loss": "ce",
+    "lr": 0.03,
+    "weight_decay": 0.03
+  },
+  "epochs_requested": 120,
+  "seed": 831031,
+  "batch_size": 64,
+  "momentum": 0,
+  "weight_decay_includes_bias": true,
+  "best": {
+    "epoch": 102,
+    "train_loss": 0.8491067290306091,
+    "train_accuracy": 0.7333333492279053,
+    "val_loss": 0.9226571917533875,
+    "val_accuracy": 0.6938889026641846,
+    "weight_l2": 4.893596977092264
+  },
+  "final": {
+    "epoch": 120,
+    "train_loss": 0.8388721942901611,
+    "train_accuracy": 0.7388888597488403,
+    "val_loss": 0.9155920147895813,
+    "val_accuracy": 0.6911110877990723,
+    "weight_l2": 4.924851937174191
+  },
+  "parameter_count": 1990,
+  "seconds": 3.145332301999588
+}

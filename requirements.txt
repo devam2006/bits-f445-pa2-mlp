@@ -1,0 +1,5 @@
+# Experiment dependencies; recorded versions are in results/data_audit.json.
+numpy
+pandas
+matplotlib
+torch

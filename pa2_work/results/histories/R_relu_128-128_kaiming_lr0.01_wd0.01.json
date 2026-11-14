@@ -1,0 +1,37 @@
+{
+  "name": "R_relu_128-128_kaiming_lr0.01_wd0.01",
+  "config": {
+    "hidden": [
+      128,
+      128
+    ],
+    "activation": "relu",
+    "initialization": "kaiming",
+    "loss": "ce",
+    "lr": 0.01,
+    "weight_decay": 0.01
+  },
+  "epochs_requested": 120,
+  "seed": 831031,
+  "batch_size": 64,
+  "momentum": 0,
+  "weight_decay_includes_bias": true,
+  "best": {
+    "epoch": 118,
+    "train_loss": 0.45093727111816406,
+    "train_accuracy": 0.8838889002799988,
+    "val_loss": 0.7641014456748962,
+    "val_accuracy": 0.722777783870697,
+    "weight_l2": 17.542709386042667
+  },
+  "final": {
+    "epoch": 120,
+    "train_loss": 0.44749969244003296,
+    "train_accuracy": 0.8922222256660461,
+    "val_loss": 0.7591179609298706,
+    "val_accuracy": 0.7211111187934875,
+    "weight_l2": 17.472402337538597
+  },
+  "parameter_count": 20486,
+  "seconds": 3.713218830002006
+}

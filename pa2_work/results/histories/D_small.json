@@ -1,0 +1,36 @@
+{
+  "name": "D_small",
+  "config": {
+    "hidden": [
+      32
+    ],
+    "activation": "relu",
+    "initialization": "kaiming",
+    "loss": "ce",
+    "lr": 0.03,
+    "weight_decay": 0.0
+  },
+  "epochs_requested": 120,
+  "seed": 831031,
+  "batch_size": 64,
+  "momentum": 0,
+  "weight_decay_includes_bias": true,
+  "best": {
+    "epoch": 118,
+    "train_loss": 0.48007604479789734,
+    "train_accuracy": 0.8316666483879089,
+    "val_loss": 0.7621234059333801,
+    "val_accuracy": 0.7133333086967468,
+    "weight_l2": 11.47051539333224
+  },
+  "final": {
+    "epoch": 120,
+    "train_loss": 0.47490862011909485,
+    "train_accuracy": 0.8327777981758118,
+    "val_loss": 0.7580603957176208,
+    "val_accuracy": 0.7122222185134888,
+    "weight_l2": 11.51500982869665
+  },
+  "parameter_count": 998,
+  "seconds": 7.293796341000416
+}

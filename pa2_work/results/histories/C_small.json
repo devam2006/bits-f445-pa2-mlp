@@ -1,0 +1,37 @@
+{
+  "name": "C_small",
+  "config": {
+    "hidden": [
+      64,
+      32
+    ],
+    "activation": "relu",
+    "initialization": "small",
+    "loss": "ce",
+    "lr": 0.03,
+    "weight_decay": 0.0
+  },
+  "epochs_requested": 120,
+  "seed": 831031,
+  "batch_size": 64,
+  "momentum": 0,
+  "weight_decay_includes_bias": true,
+  "best": {
+    "epoch": 119,
+    "train_loss": 1.6858214139938354,
+    "train_accuracy": 0.3072222173213959,
+    "val_loss": 1.6867183446884155,
+    "val_accuracy": 0.28777778148651123,
+    "weight_l2": 1.6653053406375202
+  },
+  "final": {
+    "epoch": 120,
+    "train_loss": 1.666217565536499,
+    "train_accuracy": 0.3072222173213959,
+    "val_loss": 1.6673344373703003,
+    "val_accuracy": 0.2872222363948822,
+    "weight_l2": 1.7716656038054432
+  },
+  "parameter_count": 3878,
+  "seconds": 2.328782859000057
+}

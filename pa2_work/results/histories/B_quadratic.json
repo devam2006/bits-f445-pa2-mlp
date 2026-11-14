@@ -1,0 +1,36 @@
+{
+  "name": "B_quadratic",
+  "config": {
+    "hidden": [
+      32
+    ],
+    "activation": "relu",
+    "initialization": "kaiming",
+    "loss": "quadratic",
+    "lr": 0.05,
+    "weight_decay": 0.0
+  },
+  "epochs_requested": 120,
+  "seed": 831031,
+  "batch_size": 64,
+  "momentum": 0,
+  "weight_decay_includes_bias": true,
+  "best": {
+    "epoch": 119,
+    "train_loss": 0.1992661952972412,
+    "train_accuracy": 0.7288888692855835,
+    "val_loss": 0.2434404343366623,
+    "val_accuracy": 0.6588888764381409,
+    "weight_l2": 9.694050598402844
+  },
+  "final": {
+    "epoch": 120,
+    "train_loss": 0.1986110657453537,
+    "train_accuracy": 0.7300000190734863,
+    "val_loss": 0.24312852323055267,
+    "val_accuracy": 0.6566666960716248,
+    "weight_l2": 9.704956471553393
+  },
+  "parameter_count": 998,
+  "seconds": 2.97138199300025
+}

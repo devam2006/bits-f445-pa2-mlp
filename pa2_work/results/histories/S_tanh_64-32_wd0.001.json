@@ -1,0 +1,37 @@
+{
+  "name": "S_tanh_64-32_wd0.001",
+  "config": {
+    "hidden": [
+      64,
+      32
+    ],
+    "activation": "tanh",
+    "initialization": "nielsen",
+    "loss": "ce",
+    "lr": 0.03,
+    "weight_decay": 0.001
+  },
+  "epochs_requested": 120,
+  "seed": 831031,
+  "batch_size": 64,
+  "momentum": 0,
+  "weight_decay_includes_bias": true,
+  "best": {
+    "epoch": 108,
+    "train_loss": 0.6031877398490906,
+    "train_accuracy": 0.8022222518920898,
+    "val_loss": 0.9282402992248535,
+    "val_accuracy": 0.6572222113609314,
+    "weight_l2": 12.144319146562697
+  },
+  "final": {
+    "epoch": 120,
+    "train_loss": 0.5490561127662659,
+    "train_accuracy": 0.8216666579246521,
+    "val_loss": 0.9172511100769043,
+    "val_accuracy": 0.6555555462837219,
+    "weight_l2": 12.469312918057573
+  },
+  "parameter_count": 3878,
+  "seconds": 5.010459103999892
+}

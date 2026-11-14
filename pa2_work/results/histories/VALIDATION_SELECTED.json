@@ -1,0 +1,37 @@
+{
+  "name": "VALIDATION_SELECTED",
+  "config": {
+    "hidden": [
+      128,
+      128
+    ],
+    "activation": "relu",
+    "initialization": "nielsen",
+    "loss": "ce",
+    "lr": 0.03,
+    "weight_decay": 0.01
+  },
+  "epochs_requested": 111,
+  "seed": 831031,
+  "batch_size": 64,
+  "momentum": 0,
+  "weight_decay_includes_bias": true,
+  "best": {
+    "epoch": 106,
+    "train_loss": 0.3082777261734009,
+    "train_accuracy": 0.9383333325386047,
+    "val_loss": 0.5955705642700195,
+    "val_accuracy": 0.773888885974884,
+    "weight_l2": 10.729377216137337
+  },
+  "final": {
+    "epoch": 111,
+    "train_loss": 0.29788699746131897,
+    "train_accuracy": 0.9466666579246521,
+    "val_loss": 0.6047887802124023,
+    "val_accuracy": 0.7599999904632568,
+    "weight_l2": 10.628719710928568
+  },
+  "parameter_count": 20486,
+  "seconds": 3.93868348000251
+}

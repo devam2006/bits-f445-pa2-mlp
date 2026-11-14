@@ -1,0 +1,37 @@
+{
+  "name": "E_wd0.03",
+  "config": {
+    "hidden": [
+      128,
+      128
+    ],
+    "activation": "relu",
+    "initialization": "kaiming",
+    "loss": "ce",
+    "lr": 0.03,
+    "weight_decay": 0.03
+  },
+  "epochs_requested": 120,
+  "seed": 831031,
+  "batch_size": 64,
+  "momentum": 0,
+  "weight_decay_includes_bias": true,
+  "best": {
+    "epoch": 119,
+    "train_loss": 0.6589859127998352,
+    "train_accuracy": 0.824999988079071,
+    "val_loss": 0.7699863910675049,
+    "val_accuracy": 0.75,
+    "weight_l2": 6.3370221170379875
+  },
+  "final": {
+    "epoch": 120,
+    "train_loss": 0.6528083086013794,
+    "train_accuracy": 0.8194444179534912,
+    "val_loss": 0.7734684348106384,
+    "val_accuracy": 0.7311111092567444,
+    "weight_l2": 6.335515282200116
+  },
+  "parameter_count": 20486,
+  "seconds": 5.819367430001876
+}

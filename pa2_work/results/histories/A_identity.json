@@ -1,0 +1,36 @@
+{
+  "name": "A_identity",
+  "config": {
+    "hidden": [
+      32
+    ],
+    "activation": "identity",
+    "initialization": "nielsen",
+    "loss": "ce",
+    "lr": 0.05,
+    "weight_decay": 0.0
+  },
+  "epochs_requested": 120,
+  "seed": 831031,
+  "batch_size": 64,
+  "momentum": 0,
+  "weight_decay_includes_bias": true,
+  "best": {
+    "epoch": 108,
+    "train_loss": 1.0276092290878296,
+    "train_accuracy": 0.6144444346427917,
+    "val_loss": 1.0725568532943726,
+    "val_accuracy": 0.6150000095367432,
+    "weight_l2": 6.718453476151044
+  },
+  "final": {
+    "epoch": 120,
+    "train_loss": 1.0248607397079468,
+    "train_accuracy": 0.6200000047683716,
+    "val_loss": 1.079757571220398,
+    "val_accuracy": 0.6016666889190674,
+    "weight_l2": 6.717281589172973
+  },
+  "parameter_count": 998,
+  "seconds": 1.9761992849998933
+}

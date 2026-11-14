@@ -1,0 +1,25 @@
+{
+  "all_specification_checks_passed": true,
+  "audited_runs": 59,
+  "official_checker_passed": true,
+  "official_checker_correct_predictions": 1640,
+  "numpy_original_training_rows": {
+    "accuracy": 0.9261111111111111,
+    "ce": 0.343347430229187,
+    "examples": 1800
+  },
+  "numpy_original_validation_rows": {
+    "accuracy": 0.9111111111111111,
+    "ce": 0.33827853202819824,
+    "examples": 1800
+  },
+  "numpy_combined_rows": {
+    "accuracy": 0.9186111111111112,
+    "ce": 0.3408129811286926,
+    "examples": 3600
+  },
+  "preprocessing_matches_original_training_statistics": true,
+  "all_histories_and_parameters_finite": true,
+  "original_validation_confusion_counts_match": true,
+  "model_sha256": "fb4069bf11e860f297b402d03af5da1856dc5dc2f232c47763ce4442a3dcc71f"
+}

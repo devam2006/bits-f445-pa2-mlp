@@ -1,0 +1,36 @@
+{
+  "name": "B_ce",
+  "config": {
+    "hidden": [
+      32
+    ],
+    "activation": "relu",
+    "initialization": "kaiming",
+    "loss": "ce",
+    "lr": 0.05,
+    "weight_decay": 0.0
+  },
+  "epochs_requested": 120,
+  "seed": 831031,
+  "batch_size": 64,
+  "momentum": 0,
+  "weight_decay_includes_bias": true,
+  "best": {
+    "epoch": 92,
+    "train_loss": 0.41952070593833923,
+    "train_accuracy": 0.8561111092567444,
+    "val_loss": 0.7441965341567993,
+    "val_accuracy": 0.722777783870697,
+    "weight_l2": 12.160298671066071
+  },
+  "final": {
+    "epoch": 120,
+    "train_loss": 0.35969412326812744,
+    "train_accuracy": 0.8805555701255798,
+    "val_loss": 0.7393322587013245,
+    "val_accuracy": 0.7205555438995361,
+    "weight_l2": 12.983119568801365
+  },
+  "parameter_count": 998,
+  "seconds": 2.563895921000949
+}

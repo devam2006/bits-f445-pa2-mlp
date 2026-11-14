@@ -1,0 +1,37 @@
+{
+  "name": "C_large",
+  "config": {
+    "hidden": [
+      64,
+      32
+    ],
+    "activation": "relu",
+    "initialization": "large",
+    "loss": "ce",
+    "lr": 0.03,
+    "weight_decay": 0.0
+  },
+  "epochs_requested": 120,
+  "seed": 831031,
+  "batch_size": 64,
+  "momentum": 0,
+  "weight_decay_includes_bias": true,
+  "best": {
+    "epoch": 103,
+    "train_loss": 0.6658331155776978,
+    "train_accuracy": 0.7416666746139526,
+    "val_loss": 2.2071821689605713,
+    "val_accuracy": 0.528333306312561,
+    "weight_l2": 58.777114260285025
+  },
+  "final": {
+    "epoch": 120,
+    "train_loss": 0.6096689105033875,
+    "train_accuracy": 0.7649999856948853,
+    "val_loss": 2.305694818496704,
+    "val_accuracy": 0.5155555605888367,
+    "weight_l2": 58.76267362210693
+  },
+  "parameter_count": 3878,
+  "seconds": 2.398816540997359
+}

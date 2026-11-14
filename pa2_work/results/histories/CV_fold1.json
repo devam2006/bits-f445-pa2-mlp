@@ -1,0 +1,37 @@
+{
+  "name": "CV_fold1",
+  "config": {
+    "hidden": [
+      128,
+      128
+    ],
+    "activation": "relu",
+    "initialization": "nielsen",
+    "loss": "ce",
+    "lr": 0.03,
+    "weight_decay": 0.01
+  },
+  "epochs_requested": 120,
+  "seed": 831031,
+  "batch_size": 64,
+  "momentum": 0,
+  "weight_decay_includes_bias": true,
+  "best": {
+    "epoch": 109,
+    "train_loss": 0.34124070405960083,
+    "train_accuracy": 0.9165079593658447,
+    "val_loss": 0.471105694770813,
+    "val_accuracy": 0.8399999737739563,
+    "weight_l2": 9.388694729825781
+  },
+  "final": {
+    "epoch": 120,
+    "train_loss": 0.3283466696739197,
+    "train_accuracy": 0.9301587343215942,
+    "val_loss": 0.4532302916049957,
+    "val_accuracy": 0.8244444727897644,
+    "weight_l2": 9.293038841390516
+  },
+  "parameter_count": 20486,
+  "seconds": 8.349265210999874
+}

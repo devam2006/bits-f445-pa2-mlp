@@ -1,0 +1,36 @@
+{
+  "name": "A_sigmoid",
+  "config": {
+    "hidden": [
+      32
+    ],
+    "activation": "sigmoid",
+    "initialization": "nielsen",
+    "loss": "ce",
+    "lr": 0.05,
+    "weight_decay": 0.0
+  },
+  "epochs_requested": 120,
+  "seed": 831031,
+  "batch_size": 64,
+  "momentum": 0,
+  "weight_decay_includes_bias": true,
+  "best": {
+    "epoch": 103,
+    "train_loss": 0.9697142243385315,
+    "train_accuracy": 0.6361111402511597,
+    "val_loss": 1.0250641107559204,
+    "val_accuracy": 0.6188889145851135,
+    "weight_l2": 10.992682190305537
+  },
+  "final": {
+    "epoch": 120,
+    "train_loss": 0.9583055377006531,
+    "train_accuracy": 0.6399999856948853,
+    "val_loss": 1.0249602794647217,
+    "val_accuracy": 0.6116666793823242,
+    "weight_l2": 11.279910697583514
+  },
+  "parameter_count": 998,
+  "seconds": 2.2209000260008906
+}

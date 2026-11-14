@@ -1,0 +1,21 @@
+{
+  "selected_run": "R_relu_128-128_nielsen_lr0.03_wd0.01",
+  "config": {
+    "hidden": [
+      128,
+      128
+    ],
+    "activation": "relu",
+    "initialization": "nielsen",
+    "loss": "ce",
+    "lr": 0.03,
+    "weight_decay": 0.01
+  },
+  "selected_epoch": 111,
+  "mean_heldout_accuracy": 0.8083333224058151,
+  "mean_heldout_ce": 0.5199907496571541,
+  "fold_accuracy_std": 0.017904641162337153,
+  "training_examples_per_fold": 3150,
+  "heldout_examples_per_fold": 450,
+  "not_an_independent_test_estimate": true
+}

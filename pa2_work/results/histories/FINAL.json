@@ -1,0 +1,37 @@
+{
+  "name": "FINAL",
+  "config": {
+    "hidden": [
+      128,
+      128
+    ],
+    "activation": "relu",
+    "initialization": "nielsen",
+    "loss": "ce",
+    "lr": 0.03,
+    "weight_decay": 0.01
+  },
+  "epochs_requested": 111,
+  "seed": 831031,
+  "batch_size": 64,
+  "momentum": 0,
+  "weight_decay_includes_bias": true,
+  "best": {
+    "epoch": 100,
+    "train_loss": 0.34484007954597473,
+    "train_accuracy": 0.9202777743339539,
+    "val_loss": 0.34484007954597473,
+    "val_accuracy": 0.9202777743339539,
+    "weight_l2": 9.22738181279059
+  },
+  "final": {
+    "epoch": 111,
+    "train_loss": 0.340813010931015,
+    "train_accuracy": 0.9186111092567444,
+    "val_loss": 0.340813010931015,
+    "val_accuracy": 0.9186111092567444,
+    "weight_l2": 9.135382193685551
+  },
+  "parameter_count": 20486,
+  "seconds": 7.01746133800043
+}

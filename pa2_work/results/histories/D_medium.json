@@ -1,0 +1,37 @@
+{
+  "name": "D_medium",
+  "config": {
+    "hidden": [
+      64,
+      32
+    ],
+    "activation": "relu",
+    "initialization": "kaiming",
+    "loss": "ce",
+    "lr": 0.03,
+    "weight_decay": 0.0
+  },
+  "epochs_requested": 120,
+  "seed": 831031,
+  "batch_size": 64,
+  "momentum": 0,
+  "weight_decay_includes_bias": true,
+  "best": {
+    "epoch": 108,
+    "train_loss": 0.15979136526584625,
+    "train_accuracy": 0.9688888788223267,
+    "val_loss": 0.8884409666061401,
+    "val_accuracy": 0.7177777886390686,
+    "weight_l2": 17.184764741514254
+  },
+  "final": {
+    "epoch": 120,
+    "train_loss": 0.13163116574287415,
+    "train_accuracy": 0.9783333539962769,
+    "val_loss": 0.9208730459213257,
+    "val_accuracy": 0.7149999737739563,
+    "weight_l2": 17.47023749117472
+  },
+  "parameter_count": 3878,
+  "seconds": 5.657871711002372
+}
